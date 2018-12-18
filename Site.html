@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content>
+		<!--<script type="text/javascript" src="js/snake.js"></script>-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    
+	    <link type="text/css" href="publico/css/bootstrap.min.css" rel="stylesheet">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <script src="publico/js/bootstrap.min.js"></script>
+		<script>
+function timer()
+{
+var date = new Date();
+var seconds = date.getSeconds();
+var minutes = date.getMinutes();
+var hours = date.getHours()
+
+if (seconds < 10)
+{
+	seconds = '0' + seconds;
+}
+
+if (minutes < 10)
+{
+	minutes = '0' + minutes;
+}
+
+if (hours < 10)
+{
+	hours = '0' + hours;
+}
+
+document.getElementById('date').innerHTML = hours + ':' + minutes + ':' + seconds;
+
+setTimeout('timer()', 1000);
+}
+</script>
+		<div>
+			<title>Minha Primeira Página</title>
+		<meta charset="utf-8">
+	   		<link rel="icon" href="teste.png">
+	   		<!--Css do fundo da página-->
+	    	<link rel="stylesheet" type="text/css" href="site.css">
+	    	<link href="teste.png">
+		</div>
+      </head>
+		 <body onLoad="timer()">
+
+		 	<div id="date"></div>
+		 	<div>
+		 		<select name="Menu">
+ 				<option onclick="">Menu</option>
+ 				<option>Alunos</option>
+	 			<option>Professores</option>
+ 				<option>Aulas</option>
+			</select>
+		 	</div>
+		 	<div>
+		 		<nav id="menu">
+    			<ul>
+        		<li><a href="Site.html">Home</a></li>
+        		<li><a href="teste.html">Teste</a></li>
+        		<li><a href="snake.html">Jogo da cobrinha</a></li>
+        		<img src="Instagram_icon.png" height="40px" width="40px" alt= "Ícone do Instagram"> 
+    			</ul>
+				</nav>
+		 	</div>
+			<center>
+				<form action=" " method="post">
+  				<label for="busca">Buscar</label>
+  				<input type="search" id="busca" name="q">
+  				<button type="submit">OK</button>
+				</form>
+			</center>
+			<marquee behavior="alternate"><img src="índice.png"></marquee>
+			 <h1>Sobre mim</h1>
+			 <center><img src="eu.png" height="200" width="300"></center>
+			 <p>Moro em Oeiras e tenho 15 anos e
+			 	trabalho usando a WEB</p>
+			 <h2>Um pouco da minha história:</h2>
+			 <p>Sou de Simplício Mendes e fiz um curso no<a href="http://libra.ifpi.edu.br/oeiras">IFPI de Oeiras</a></p>
+			 <p>Tenho vários colegas e amigos</p>
+			 <h2>O que faço no tempo livre:</h2>
+			 <p>Eu praticamente não tenho tempo livre pois estudo o dia quase todo</p>
+			 <p>porém quando arranjo um espaço no dia utilizo para brincar entre outras</p>
+			 <p>coisas do genero.</p>
+			 <p>Escuto muitas músicas de diversos estilos:</p>
+			 <p>porém os principais são sad songs e eletrônicas.</p>
+			 <p>uma delas é essa:</p>
+			<center><audio src="musica_2.mp3" controls="controls"></audio></center>
+			 <p>E vídeos como:</p>
+			 <center><video src = "video_site.mp4" controls = "controls"</video></center>
+			  <p>Curto jogos como: Rainbow Six Siegue, Counter Strike, Bullet Force, entre outros.</p>
+			 <h2>O que pretendo ser no futuro:</h2>
+			 <p>Pretendo trabalhar na  área do curso pois sou apaixonado pela informatica</p>
+			 <p>desde criança que eu venho com essa paixão.</p>
+			 <p>Também gosto muito de fotos tumblr:</p>
+			<center><img src="fotinha.png" width="180" height="180">  <img src="tbl.png" width="180" height="180">
+			<div class="container">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+			    
+			    <div class="item">
+			      <img src="fun.jpeg"  width="400" height="500" alt="...">
+			      <div class="carousel-caption">
+			        
+			      </div>
+			    </div>
+			    <div class="item">
+			      <img src="test.jpeg"  width="400" height="500" alt="...">
+			      <div class="carousel-caption">
+			        
+			      </div>
+			    </div> 
+			  </div>
+
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+			</div>
+			</div>
+			</center>
+
+		</body>
+</html>

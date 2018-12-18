@@ -1,0 +1,7 @@
+ body{
+ 	font-family: "crimson Text", "times New Roman", serif; 
+    font-size:120%;
+    background-image: url("sasuke.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,0 +1,21 @@
+ body{
+ 	font-family: "crimson Text", "times New Roman", serif; 
+    font-size:120%;
+    background: url("sasuke.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    
+ h1, h2 ,h3{      
+        font-family:"Open Sans condensed","Arial",sans-serif;
+        text-align: center;
+ }
+ p {
+ 	text-aling:justify;
+ 	text-align: center;
+}
+div{
+	width: 100%
+	padding:0px;
+    margin:0px;
+}
